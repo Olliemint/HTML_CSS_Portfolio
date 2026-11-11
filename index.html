@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hannah Mumbi - Personal portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header id="home">
+        <div class="header-content">
+            <h1>Hannah Mumbi</h1>
+            <p>Welcome to my personal portfolio! </p>
+            <a href="#contact" class="btn download-btn">Download CV</a>
+        </div>
+        
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about" class="section-container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <!-- Using a placeholder image, you can replace the src with your own photo later -->
+                <div class="about-text">
+                    <h3>Hannah Mumbi</h3>
+                    <p><strong>Course:</strong> Diploma in Computer Science</p>
+                    <p><strong>Institution:</strong> Zetech University</p>
+                    <p>I am a passionate computer science student actively seeking an internship opportunity in web development. 
+                        I enjoy building clean, user-friendly websites and learning modern web technologies.
+</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section-container">
+            <h2>Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">HTML</div>
+                <div class="skill-card">CSS</div>
+                <div class="skill-card">JavaScript</div>
+                <div class="skill-card">Python</div>
+                <div class="skill-card">Database Management</div>
+            </div>
+        </section>
+
+        <section id="projects" class="section-container">
+            <h2>Featured Projects</h2>
+            <div class="projects-grid">
+                
+                <div class="project-card">
+                    <h3>Student Management System</h3>
+                    <p>A web-based database application designed to manage student registration and academic records.</p>
+                </div>
+
+                <div class="project-card">
+                    <h3>E-Commerce Website</h3>
+                    <p>A responsive landing page showcasing product features with styled navigation and call-to-action sections.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="contact" class="section-container">
+            <h2>Contact Me</h2>
+            <div class="contact-layout">
+                <div class="contact-info">
+                    <p>Email: <a href="mailto:olliemumbi@gmail.com">olliemumbi@gmail.com</a></p>
+                    <p>Phone: +254 117757977</p>
+                </div>
+                
+                <form action="#" method="POST" class="contact-form">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Your Message" required></textarea>
+
+                    <button type="submit" class="btn submit-btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Hannah Mumbi. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
